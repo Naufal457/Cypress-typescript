@@ -32,5 +32,5 @@ it('Test Add Sauce Labs Backpack to Cart And Go To Cart Page', () => {
 
 it('Test Checkout A Product', () => {
   loginPage.login(URL,'standard_user','secret_sauce');
-  dashboardPage.assertCheckoutProduct('Ary','Setiyawan','80351');
+  dashboardPage.assertCheckoutProduct('Naufal','Zaky','80351');
 });
